@@ -1,0 +1,18 @@
+.analytics_capsule_container {
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1px 5px rgb(0 74 116/15%);
+  border-radius: 10px;
+}
+
+.headers_and_value {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 20px;
+}

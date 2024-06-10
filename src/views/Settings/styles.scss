@@ -1,0 +1,334 @@
+.hive_members_container {
+  padding: 20px;
+}
+
+.tabs_container {
+  // margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.intro_video_edit_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.view_pitch_deck_wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.hive_setting_switch_wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.hive_setting_switch_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.page_y_padding {
+  padding: 20px 0px;
+}
+
+.chatbot_view__chat_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .sender_chat {
+    padding: 5px;
+    background: #dff3f6;
+    // background: #0a292e;
+    border-radius: 17px 0px 17px 17px;
+    color: #000;
+    max-width: 50%;
+  }
+  .response_chat {
+    padding: 5px;
+    background: $whitesmoke-light;
+    border-radius: 0px 17px 17px 17px;
+    color: #000;
+    max-width: 50%;
+  }
+}
+
+.chatbot_view__chat_container_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.intro_video_edit_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.back_button_spacing {
+  padding: 0px 0px 10px 0px;
+}
+
+.who_are_we_section_text {
+  height: 100px;
+  max-height: 200px;
+  min-height: 50px;
+  resize: vertical;
+}
+
+.table_cell_hover:hover {
+  background-color: #f7f7f7;
+}
+
+.bold_heading_table {
+  font-weight: 600;
+  color: #1264a3;
+}
+
+.members_invite_toggles {
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.member_setting_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hive_members_head {
+  margin: 20px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channel_select_logo {
+  width: 100px;
+  height: 130px;
+  border-radius: 8px;
+}
+
+.channel_selection_wrapper {
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 240px;
+}
+
+.channel_selection_wrapper::-webkit-scrollbar {
+  display: block;
+  width: 6px;
+}
+
+.settings_social_config_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.social_link_edit_input {
+  border: none;
+  outline: none;
+}
+.social_link_edit_input_wrapper {
+  border: 2px solid #ccc;
+  padding: 8px 5px;
+}
+.social_link_edit_view_wrapper {
+  // border: 2px solid #ccc;
+  padding: 8px 5px;
+}
+
+.spotlight_is_fetching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.rounded_spotlight {
+  border-radius: 15px;
+}
+
+.input_container_w_border {
+  position: relative;
+}
+
+.char_limit_input {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+  margin: 0px 5px;
+}
+
+.input_within_border {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+}
+
+.link_edit_save_wrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.link_edit_save_wrapper_product {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product_add_media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sle_confirm_btns {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.settings_social_config_icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.small_helper_text {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.channel_selection_wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.channel_selection_wrapper::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.my-5 {
+  margin: 10px 0px 20px 0px;
+}
+
+.nextBtn {
+  margin: 50px 0px 20px 0px;
+  width: 25%;
+}
+
+.button_with_logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.smallLogo {
+  width: 12px;
+  height: 12px;
+}
+
+.invite_to_channels_container {
+  padding: 20px;
+}
+
+.members_list_container {
+  padding: 20px;
+}
+
+.add_contact_container {
+  padding: 20px;
+}
+
+.react_multi_email_container {
+  margin: 20px 0px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.hive_products_table {
+  // margin: 0 auto; /* Center the table horizontally */
+  width: 100%;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.hive_products-delete {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.hive_products_table_header {
+  background: #ffffff;
+  box-shadow: 0px 8px 26px -4px #e9ecef, 0px 8px 9px -5px #e9ecef;
+}
+
+.hive_products_list_tem {
+  padding: 10px;
+}
+
+.hive_products_table_item {
+  margin: 5px 0px;
+}
+
+.add_product_container {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.add_product_container:hover {
+  background-color: $whitesmoke;
+  transition: background-color 0.3s ease;
+}
+
+.react-quill-text-container {
+  position: relative;
+  height: 170px;
+}
+
+.react-quill-text-limit {
+  position: absolute;
+  bottom: 20%;
+  right: 1%;
+  font-size: 14px;
+}

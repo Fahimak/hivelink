@@ -1,0 +1,28 @@
+$black: #000000;
+$white: #ffffff;
+$dark-grey: #444444;
+$grey: #4a4a4a;
+$grey2: #6c6c6c;
+$grey3: #979797;
+$grey4: #d9d9d9;
+$grey5: #dadada;
+$light-grey2: #7e7e7e;
+$light-grey: #c4c4c4;
+$dark-green: #0a292e;
+$dark-green2: #242424;
+$light-green: #20b1c7;
+$light-green2: #6ecf97;
+$green: #237b3c;
+$bright-green: #50fb81;
+$violet: #734b91;
+$blue: #1964d5;
+$dark-blue: #2b3f6c;
+$ocean: #0e606d;
+$whitesmoke: #f5f5f5;
+$whitesmoke-light: #fafafa;
+$greybg: #f7f7f7;
+$selected-text: #007495;
+
+@mixin random-bgcolor() {
+  background-color: rgba(random(255), random(255), random(255), 0.2);
+}

@@ -1,0 +1,17 @@
+.time_count {
+  height: 16px;
+  width: 32px;
+  background-color: $white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .time_count_text {
+    font-family: "Avenir", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    letter-spacing: -0.41px;
+    color: $ocean;
+  }
+}

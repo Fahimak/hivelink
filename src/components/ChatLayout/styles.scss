@@ -1,0 +1,78 @@
+.chat_layout_container {
+  width: 100%;
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 10px 16px;
+  background-color: $greybg;
+  position: relative; /* Ensure the container is positioned */
+  z-index: 1;
+  background-size: cover;
+}
+
+.typing-indicator {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 20px;
+  margin: 20px 0px 10px 0px;
+}
+
+.typing_ind_dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.dot-1 {
+  animation-name: wave-1;
+}
+
+.dot-2 {
+  animation-name: wave-2;
+}
+
+.dot-3 {
+  animation-name: wave-3;
+}
+
+@keyframes wave-1 {
+  0%,
+  60%,
+  100% {
+    transform: initial;
+  }
+
+  30% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes wave-2 {
+  0%,
+  60%,
+  100% {
+    transform: initial;
+  }
+
+  15% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes wave-3 {
+  0%,
+  60%,
+  100% {
+    transform: initial;
+  }
+
+  0% {
+    transform: translateY(-5px);
+  }
+}

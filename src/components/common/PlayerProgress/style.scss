@@ -1,0 +1,17 @@
+.progress_line {
+  &.MuiLinearProgress-root {
+    height: 2px;
+    width: 100%;
+    background-color: $white;
+  }
+
+  .MuiLinearProgress-bar {
+    background-color: $light-green2;
+    transition: unset;
+  }
+  &.transition {
+    .MuiLinearProgress-bar {
+      transition: 1s linear;
+    }
+  }
+}

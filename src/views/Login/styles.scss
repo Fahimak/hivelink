@@ -1,0 +1,157 @@
+.login_container {
+  width: 400px;
+}
+
+.login_form_wrapper_ak {
+  position: relative;
+  z-index: 3;
+  /* Ensures form is above background and overlay */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: white;
+  /* padding: 10px 40px 30px 40px; */
+  border-radius: 5px;
+}
+
+.login_inputs_wrapper {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  border-radius: 13px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: #ffffff 0% 0% no-repeat padding-box; */
+  /* height: 70vh; */
+  /* margin-top: 5%; */
+  /* width: 50%; */
+}
+
+@media screen and (max-height: 680px) {
+  .login {
+    height: 88vh;
+  }
+}
+
+.ak_login_input_wrapper {
+  border: 1px solid rgba(226, 232, 240, 1);
+  border-radius: 12px;
+  padding: 8px 16px 8px 16px;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 350px;
+  height: 48px;
+  /* height: 56px;
+  width: 300px; */
+}
+
+@media screen and (max-width: 840px) {
+  .ak_login_input_wrapper {
+    width: 280px;
+  }
+}
+
+.ak_login_input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: black;
+  width: 100%;
+  font-size: 16px;
+}
+
+.gray_text {
+  color: rgba(100, 116, 139, 1);
+}
+
+.submit-container {
+  // margin-top: 4%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  width: 350px;
+  background: $dark-green;
+  border-radius: 12px;
+  opacity: 1;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.privacy_tnc_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+  gap: 5px;
+}
+
+.privacy_tnc_item {
+  color: #344053;
+  text-decoration: none;
+}
+
+.privacy_tnc_item:hover {
+  color: black;
+}
+
+.login_content_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+  //   height: 100%;
+  padding: 80px;
+  /* max-width: 1200px; */
+}
+
+.login_text_wrapper {
+  color: white;
+}
+
+@media (max-width: 840px) {
+  .login_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .login_text_wrapper {
+    display: none;
+    text-align: center;
+  }
+  .submit-button {
+    width: 280px;
+  }
+}
+
+.main_login_container {
+  height: 100dvh;
+  width: 100%;
+  background-image: url("https://imagesdev.veehive.ai/background/Frame+289736-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,24 @@
+.social_icons_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.social_icons_wrapper {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.social_icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.inactive_social_icon {
+  opacity: 0.3;
+  cursor: default;
+}

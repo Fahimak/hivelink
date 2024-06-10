@@ -1,0 +1,37 @@
+.upload_story_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  height: 480px;
+  width: 100%;
+}
+
+.uploaded_story_image {
+  width: 174px;
+  height: 271px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.story_video_view_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.story_video_change_title {
+  margin-bottom: 10px;
+}
+
+.story_createBtn {
+  margin-top: 20px;
+}
+
+.story_drop_header {
+  margin-bottom: 10px;
+}

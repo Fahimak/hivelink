@@ -1,0 +1,55 @@
+.primaryBtn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  border-radius: 60px;
+  transition: 0.3s ease-in-out;
+}
+
+.secondaryBtn,
+.primaryBtn,
+.tertiaryBtn,
+.disabledBtn {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  border-radius: 60px;
+}
+.secondaryBtn {
+  background: #fafafa;
+  border: 1px solid #ebebeb;
+  color: #242424;
+}
+
+.primaryBtn {
+  background: #242424;
+  border: 1px solid #242424;
+  color: white;
+}
+
+.tertiaryBtn {
+  background: #1b3426;
+  border: 1px solid #1b3426;
+  color: #50fb81;
+}
+
+.disabledBtn {
+  background: #5a5a5a;
+  border: 1px solid #5a5a5a;
+  color: #808080;
+}

@@ -1,0 +1,36 @@
+.activities_container {
+  padding: 10px 10px;
+  // overflow-y: scroll;
+}
+
+.activity_wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  gap: 10px;
+}
+
+.user_page_contaienr {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.default_logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+}
+
+.activity_profile_photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+}
+
+.bold_xs_text {
+  margin-top: 5px;
+  color: #b4b4b4;
+  font-size: 12px;
+  font-weight: 600;
+}

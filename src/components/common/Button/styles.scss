@@ -1,0 +1,18 @@
+.custom_button {
+  &.MuiButton-text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-transform: none;
+    padding: 0;
+  }
+  //   &.MuiButton-textPrimary {
+  //     font-family: 'Poppins', sans-serif;
+  //     font-style: normal;
+  //     font-weight: 500;
+  //     font-size: 1.6rem;
+  //     line-height: 2.4rem;
+  //   }
+}

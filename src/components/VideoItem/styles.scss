@@ -1,0 +1,25 @@
+.video_card {
+  width: 173px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.video_title {
+  margin-top: 5px;
+}
+
+.video_item_container {
+  cursor: pointer;
+}
+
+.relative {
+  position: relative;
+}
+
+.video_kebab_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 200;
+}

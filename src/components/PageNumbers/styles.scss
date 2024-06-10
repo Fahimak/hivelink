@@ -1,0 +1,37 @@
+.page-item {
+  padding: 5px;
+  text-align: center;
+}
+
+.page-link {
+  padding: 5px 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.page-link:hover {
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.activeLink {
+  font-weight: 600;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.navigationLink {
+  color: #242424;
+}
+
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

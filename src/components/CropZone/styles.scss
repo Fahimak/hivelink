@@ -1,0 +1,32 @@
+.cropzone_box_container {
+  background-color: white;
+  position: relative;
+}
+
+.cropzone_content_container {
+  position: absolute;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  height: 70%;
+  width: 70%;
+}
+
+.cropzone_cropper_container {
+  height: 75%;
+  width: 75%;
+}
+
+.cropzone_btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.cropzone_header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 20px 0px;
+}

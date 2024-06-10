@@ -1,0 +1,38 @@
+.chat_room_page {
+  padding: 0;
+  // justify-content: flex-start;
+  position: relative;
+}
+
+.chat_room_wrapper {
+  // margin: 0px 10px;
+  // display: block;
+}
+
+.max_height {
+  height: 100dvh;
+}
+
+.no_scroll {
+  overflow-y: hidden;
+}
+
+.chat_bot_room_wrapper {
+  // margin: 0px 10px;
+}
+
+.unread_wrapper {
+  background-color: $bright-green;
+  border-radius: 9999px;
+  color: $dark-green;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  // height: 25px;
+  // width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,86 @@
+.input {
+  min-height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba($color: #000000, $alpha: 0.13);
+  border-radius: 5px;
+  margin: 18px 6px;
+  padding: 0 10px;
+  outline: none;
+
+  &::placeholder {
+    text-align: center;
+  }
+}
+
+.input_container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ountlined {
+  .MuiInputBase-root {
+    background: $white;
+    border-radius: 9999px;
+    height: 52px;
+    padding: 0 9px;
+  }
+  .Mui-focused {
+    transition: 0.2s;
+    &.MuiInputBase-readOnly {
+      border-color: rgba($black, 0.13);
+    }
+  }
+  .MuiInputBase-input {
+    font-family: "Avenir", sans-serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    color: $black;
+    &::placeholder {
+      color: $grey2;
+      opacity: 1;
+    }
+  }
+}
+
+.standart {
+  .input_helper_text {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: $light-grey2;
+    padding-top: 10px;
+  }
+  .input_label_text {
+    font-size: 1.7rem;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    color: $black;
+    margin-bottom: 16px;
+  }
+  .MuiInputBase-root {
+    background: $white;
+    border-bottom: 1px solid #d9d9d9;
+    font-family: "Avenir", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: $black;
+  }
+  .Mui-focused {
+    border-color: $dark-green;
+    transition: 0.2s;
+    &.MuiInputBase-readOnly {
+      border-color: #d9d9d9;
+    }
+  }
+  .MuiInputBase-input {
+    padding: 0;
+    margin-bottom: 7px;
+
+    &::placeholder {
+      color: #dadada;
+      opacity: 1;
+    }
+  }
+}
